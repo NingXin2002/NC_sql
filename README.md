@@ -26,5 +26,5 @@ optional arguments:
   -f FILE, --file FILE  添加txt文件  
 
 example:  
-    python3 yongyou_fileup.py -u http://xxxx.xxxx.xxxx.xxxx  
-    python3 yongyou_fileup -f x_url.txt  
+    python3 yongyou_sql.py -u http://xxxx.xxxx.xxxx.xxxx  
+    python3 yongyou_sql.py -f x_url.txt  
