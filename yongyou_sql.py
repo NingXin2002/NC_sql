@@ -52,8 +52,8 @@ def main():
     print(banner)
     parse = argparse.ArgumentParser(description="用友NC pagesServlet SQL注入致RCE漏洞", formatter_class=argparse.RawDescriptionHelpFormatter,
     epilog=textwrap.dedent('''example:
-    python3 yongyou_fileup.py -u http://xxxx.xxxx.xxxx.xxxx
-    python3 yongyou_fileup -f x_url.txt '''))
+    python3 yongyou_sql.py -u http://xxxx.xxxx.xxxx.xxxx
+    python3 yongyou_sql.py -f x_url.txt '''))
     parse.add_argument('-u', '--url', dest='url', type=str, help='添加url信息')
     parse.add_argument('-f', '--file', dest='file', type=str, help='添加txt文件')
 
