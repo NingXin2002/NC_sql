@@ -50,7 +50,7 @@ def main():
            `--'          `-----' `--'  `--'   `------'     `--'          `-----'   `-----'    
         """
     print(banner)
-    parse = argparse.ArgumentParser(description="用友 NC uploadControl/uploadFile 文件上传漏洞", formatter_class=argparse.RawDescriptionHelpFormatter,
+    parse = argparse.ArgumentParser(description="用友NC pagesServlet SQL注入致RCE漏洞", formatter_class=argparse.RawDescriptionHelpFormatter,
     epilog=textwrap.dedent('''example:
     python3 yongyou_fileup.py -u http://xxxx.xxxx.xxxx.xxxx
     python3 yongyou_fileup -f x_url.txt '''))
