@@ -1,6 +1,8 @@
 # NC_sql
 用友NC pagesServlet SQL注入致RCE  
 
+**需要安装支持库**  
+pip install requests  
 
 python yongyou_fileup.py -h                                         
 
