@@ -18,7 +18,7 @@ python yongyou_fileup.py -h
 
 usage: yongyou_fileup.py [-h] [-u URL] [-f FILE]  
 
-用友 NC uploadControl/uploadFile 文件上传漏洞  
+用友NC pagesServlet SQL注入致RCE漏洞 
 
 optional arguments:  
   -h, --help            show this help message and exit  
