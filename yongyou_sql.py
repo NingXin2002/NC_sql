@@ -25,7 +25,7 @@ def check(target, timeout=10):
         # 抑制 InsecureRequestWarning 警告
         requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
         start_time = time.time()
-        response = requests.post(url, headers=headers, verify=False, timeout=timeout)
+        response = requests.get(url, headers=headers, verify=False, timeout=timeout)
         elapsed_time = time.time() - start_time
         if 5 < elapsed_time < 10:
             print('[*]可能存在漏洞 ' + target)
